@@ -1,0 +1,51 @@
+html {
+	overflow: hidden;
+	height: 100%;
+}
+body
+{
+	background: #FFFFFF;
+	margin: 0;
+	padding: 0 0 4px 0;
+	height: 100%;
+}
+body, td, th, tr
+{
+	color: #000000;
+	font-family: 'Segoe UI', verdana, tahoma, arial, sans-serif;
+}
+img
+{
+	border: 0px;
+}
+h1 {
+	color: #777777;
+	font-size: 24pt;
+	font-weight: normal;
+	margin: 0;
+	line-height: normal;
+	font-family: 'Segoe UI', verdana, tahoma, arial, sans-serif;
+}
+#container {
+	position: absolute;
+	top: 40px;
+	left: 0;
+}
+#infoBlock {
+	position: absolute; background-color: #fff; width: 200px; right: 25px; top: 58px;
+}
+#inventoryBlock {
+	position: absolute; bottom: 20px; right: 20px; width: 200px; height: 40px;
+}
+#inventoryBlock img {
+	cursor: pointer;
+}
+#inventoryBlock img:hover {
+	opacity: .8;
+}
+#barBlock {
+	position: absolute; background-color: #bbb; width: 98%; height: 40px; padding: 0 1%; left: 0; top: 0; line-height: 40px; font-size: 14pt;
+}
+#chatBlock {
+	position: absolute; bottom: 10px; left: 10px; font-size: 12pt; font-family: Consolas, "Lucida Console", Arial, sans; text-shadow: 1px 1px 2px black, 0 0 1em black;
+}
